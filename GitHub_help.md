@@ -80,8 +80,8 @@ note: colab notebooks will autosave
 1. git on the command line will tell you about a merge conflict -- EXAMINE THIS CAREFULLY: if conflict is due to missing files, proceed below; if conflict is due to different versions of the same file - tell me, we'll need an individual solution
 2. emacs will open within the terminal window asking for a reason the merge is needed
 3. type a "message" that explains what caused the merge conflict
-4. press the `control` and `c` keys simultaneously (this saves your message)
-5. press the `control` and `x` keys simultaneously (this exits emacs & returns the window)
+4. press the `control` and `x` keys simultaneously (this saves your message)
+5. press the `control` and `c` keys simultaneously (this exits emacs & returns the window)
 6. type `git pull` to pull the missing files 
 7. type `git status` to verify you are not up-to-date. i.e. you should see something like this: `Your branch is ahead of 'origin/main' by 2 commits.`
 8. type `git push` to finish your original commit
