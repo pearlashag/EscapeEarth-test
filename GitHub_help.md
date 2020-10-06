@@ -1,7 +1,7 @@
 # FOR FILES ON GOOGLE COLAB
 main google [colab webpage](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiGuLzqkpfsAhU9lHIEHZZsDCwQFjAAegQIBhAD&url=https%3A%2F%2Fcolab.research.google.com%2F&usg=AOvVaw3A5aPK2kLFzKOzb6sOckVw)
 
-## to create a new colab notebook
+## _to create a new colab notebook__
 
 1. go to your google drive webpage
 2. double click the `EE-notebooks-YOURNAME` folder
@@ -42,6 +42,8 @@ note: colab notebooks will autosave
 9. Verify your changes by checking your FORKED EscapeEarth repo on the GitHub website
 
 
+
+<br>
 # FOR FILES ON YOUR COMPUTER
 
 
@@ -56,11 +58,16 @@ note: colab notebooks will autosave
 7. type `git push origin master` this pushes the file commit to the git hub website VERY IMPORTANT!
 
 
-## to download files that have changed in our MAIN EscapeEarth repo
+## to download (pull) files that have changed in our MAIN EscapeEarth repo
 
 1. open terminal & `cd` into the folder EscapeEarth 
 2. type `git status` and check for the message `Your branch is up to date with 'origin/main'.`
-3. if you are not up to date type `git pull upsteam master`
+3. if you are not up to date type `git pull upsteam main`
+
+
+## to pull files from your FORKED EscapeEarth repo (usually done if we pushed file from google colab first)
+1. open terminal & `cd` into the folder EscapeEarth
+2. type `git pull`
 
 
 
@@ -73,8 +80,8 @@ note: colab notebooks will autosave
 1. git on the command line will tell you about a merge conflict -- EXAMINE THIS CAREFULLY: if conflict is due to missing files, proceed below; if conflict is due to different versions of the same file - tell me, we'll need an individual solution
 2. emacs will open within the terminal window asking for a reason the merge is needed
 3. type a "message" that explains what caused the merge conflict
-4. press the `control` and `c` keys simultaneously (this saves your message)
-5. press the `control` and `x` keys simultaneously (this exits emacs & returns the window)
+4. press the `control` and `x` keys simultaneously (this saves your message)
+5. press the `control` and `c` keys simultaneously (this exits emacs & returns the window)
 6. type `git pull` to pull the missing files 
 7. type `git status` to verify you are not up-to-date. i.e. you should see something like this: `Your branch is ahead of 'origin/main' by 2 commits.`
 8. type `git push` to finish your original commit
